@@ -1,0 +1,176 @@
+.wrapper{
+    width:375px;
+    height:667px;
+    background-color:#3d3d3d;
+    margin-left:auto;
+    margin-right:auto;
+}
+#empty{
+    height:267px;
+    width:375px;
+    background-color: none;
+}
+.widgets{
+    height:167px;
+    width:93.75px;
+    background-color:#3d3d3d;
+    float:left;
+    margin: 0 0 0 0;
+}
+.fb{
+    height:40px;
+    width:40px;
+    /*background-color:#1e4698;*/
+    margin-top:15px;
+    margin-bottom:10px;
+    margin-left:auto;
+    margin-right:auto;
+    /*border-radius:100%;*/
+}
+.twit{
+    height:40px;
+    width:40px;
+    /*background-color:#3593d1;*/
+    margin-bottom:10px;
+    margin-left:auto;
+    margin-right:auto;
+    /*border-radius:100%;*/
+}
+.inst{
+    height:40px;
+    width:40px;
+    /*background-color:#d64138;*/
+    margin-left:auto;
+    margin-right:auto;
+    /*border-radius:100%;*/
+}
+.clock_wrap{
+    height:167px;
+    width:187.5px;
+    background-color:#3d3d3d;
+    float:left;
+}
+.clock_face{
+    height:100px;
+    width: 187.5px;
+    /*background-color:lightblue;*/
+    margin: 33.5px 0 0 0;
+}
+.pref{
+    height:167px;
+    width:93.75px;
+    background-color:#3d3d3d;
+    float:left;
+}
+.settings{
+    height:50px;
+    width:50px;
+    /*background-color:#e6e6e6;*/
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 58.5px;
+}
+.tabs{
+    position:absolute;
+    top: 175px;
+    height:100px;
+    width: 350px;
+    background-color:none;
+    margin: 0 0 0 13px;
+}
+.daily{
+    width:350px;
+    height:385px;
+    background-color: #e6e6e6;
+    margin-left:auto;
+    margin-right:auto;
+}
+.daily_tab{
+    opacity:.0;
+    font-size:40px;
+    position:absolute;
+    left:20px;
+    height:100px;
+    width:110px;
+}
+.weekly_tab{
+    opacity:.0;
+    font-size:40px;
+    position:absolute;
+    left:130px;
+    height:100px;
+    width:110px;
+}
+.week_cal{
+    height:40px;
+    width:330px;
+    margin: 10px 0 -5px 10px;
+    /*background-color:lightgreen;*/
+}
+.monthly_tab{
+    opacity:.0;
+    font-size:40px;
+    position:absolute;
+    left:240px;
+    height:100px;
+    width:110px;
+}
+.month_cal{
+    width:330px;
+    height:270px;
+    margin: 0 0 0 10px;
+    /*background-color:skyblue;*/
+}
+.month_icons{
+    height:40px;
+    width: 330px;
+    margin: 0 0 0 0;
+}
+.plus{
+    height:40px;
+    width:40px;
+    float:left;
+    margin: 0 0 0 120px;
+}
+.trash{
+    height:40px;
+    width:40px;
+    float:left;
+    margin: 0 0 0 30px;
+}
+.li_container{
+    width: 375px;
+    height: 400px;
+    padding: 15px 0 0 0;
+}
+.li_container li{
+    list-style-type: disc;
+    font-size:45px;
+    height: 60px;
+    width: 240px;
+    margin: 0px 0 15px 35px;
+    /*background-color: orange;*/
+}
+.li_container h2{
+    text-align:center;
+    font-family: sans-serif;
+    font-weight: 400;
+    margin: 0 0 -5px 0;
+}
+li:nth-child(1){
+    /*background-color:#6eaa39;*/
+}
+li:nth-child(2){
+    /*background-color:#0ca7d0;*/
+}
+li:nth-child(3), li:nth-child(4){
+    width: 70px;
+    /*background-color:#3d3d3d;*/
+    opacity: .50;  
+}
+.line{
+    width:210px;
+    height:2px;
+    margin: 15px 0 15px 70px;
+    background-color:blacK;
+}
